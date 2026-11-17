@@ -1,0 +1,18 @@
+###
+POST http://localhost:5000/farmacia/nuevo
+Content-Type: application/json
+
+{
+	"nombre": "malavares",
+	"ciudad": "CABA",
+	"direccion": "estrecho 123",
+	"telefono": "1112345678"
+}
+
+###
+GET http://localhost:5000/farmacia/todos
+
+
+
+###
+GET http://localhost:5000/farmacia/obtenerUno/Farmacia Central
